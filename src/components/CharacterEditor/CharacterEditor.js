@@ -30,7 +30,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
-      <MaxWidthWrapper className={styles.maxWidthWrapper}>
+        <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
           <p className={styles.description}>
@@ -69,6 +69,7 @@ function App() {
             currentOption={skinColor}
             handleSelectOption={setSkinColor}
           />
+        
           <ControlPane
             title="Clothing Color"
             options={clothesColorOptions}
